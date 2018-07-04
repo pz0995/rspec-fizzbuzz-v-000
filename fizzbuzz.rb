@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 
-def fizzbuzz(int)
+def fizzbuzz(n)
   n = 1
   if n % 3 == 0 # if the number int is divisible by 3
     puts "Fizz" # Go fizz
