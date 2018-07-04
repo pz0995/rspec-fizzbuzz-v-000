@@ -4,7 +4,7 @@
 
 
 def fizzbuzz(int)
-  int = gets.to_i
+  int = gets.strip
 
 
   if int % 3 == 0 # if the number int is divisible by 3
@@ -17,5 +17,3 @@ def fizzbuzz(int)
     puts "nil"
   end
 end
-
-fizzbuzz(int)
