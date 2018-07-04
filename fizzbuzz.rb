@@ -6,7 +6,7 @@
 def fizzbuzz(int)
   int = gets.to_i
 
-  int = 1
+
   if int % 3 == 0 # if the number int is divisible by 3
     puts "Fizz" # Go fizz
   elsif int % 5 == 0
