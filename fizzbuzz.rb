@@ -1,6 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
+int = gets.to_i
 
 def fizzbuzz(int)
   int = 1
