@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 
 
-def fizzbuzz(n)
-  n = 1
-  if n % 3 == 0 # if the number int is divisible by 3
+def fizzbuzz(int)
+  int = 1
+  if int % 3 == 0 # if the number int is divisible by 3
     puts "Fizz" # Go fizz
-  elsif n % 5 == 0
+  elsif int % 5 == 0
     puts "Buzz"
-  elsif n % 15 == 0
+  elsif int % 15 == 0
     puts "FizzBuzz"
 end
