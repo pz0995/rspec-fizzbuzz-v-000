@@ -5,6 +5,7 @@
 
 def fizzbuzz(int)
 
+for i in 1..100
   if int % 3 == 0 && int % 5 == 0 # if the number int is divisible by 3
   puts "FizzBuzz"
   elsif int % 3 == 0 # if the number int is divisible by 3
