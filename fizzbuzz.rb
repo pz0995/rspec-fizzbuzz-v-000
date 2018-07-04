@@ -2,6 +2,8 @@
 # See README.md for instructions on how to do this
 
 
+get = int.to_i
+puts fizzbuzz(int)
 
 def fizzbuzz(int)
 
@@ -17,4 +19,4 @@ def fizzbuzz(int)
   end
 end
 
-fizzbuzz("int")
+
