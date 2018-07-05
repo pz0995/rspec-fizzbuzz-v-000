@@ -18,3 +18,6 @@ def fizzbuzz(int)
     puts "nil"
   end
 end
+
+int = gets.to_i
+puts "fizzbuzz(#{int})"
